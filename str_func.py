@@ -5,7 +5,7 @@ def str_upper(input_str):
     :param input_str: Строка
     :return:
     """
-    return input_str.upper()
+    return input_str.strip().upper()
 
 
 def str_title(input_str):
@@ -14,4 +14,4 @@ def str_title(input_str):
     :param input_str: Строка
     :return:
     """
-    return input_str.title()
+    return input_str.strip().title()
